@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family:  'Arima', cursive;
-    background-color: rgb(153, 165, 177);
+    background-color: rgb(245, 247, 248);
 }
 .main {
     display: flex;
@@ -20,9 +20,31 @@
 input{
     border-radius: 3px;
 }
-#add{
+#btn{
     width: 50px;
     background-color: rgb(36, 38, 150);
     border-radius: 4px;
     color: white;
+}
+.item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#i {
+    padding: 4px;
+    padding-left: 6px;
+}
+#i:hover{
+    cursor: pointer;
+    color: green;
+}
+#i.active{
+    display: none;
+}
+ul li{
+    list-style-type: none;
+    padding: 3px;
+    border-radius: 4px solid rgb(206, 105, 105);
 }
